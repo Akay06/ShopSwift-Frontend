@@ -265,7 +265,7 @@ let buttonTag = document.createElement("button");
 buttonDiv.appendChild(buttonTag);
 
 let buttonLink = document.createElement("a");
-buttonLink.href = "/orderSummary.html?";
+buttonLink.href = "orderSummary.html?";
 buttonTag.appendChild(buttonLink);
 
 buttonText = document.createTextNode("Proceed to Buy");
