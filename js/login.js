@@ -1,5 +1,5 @@
-const loginUrl = "https://shopswift-19of.onrender.com//shopswift/login";
-const signupUrl = "https://shopswift-19of.onrender.com//shopswift/signup";
+const loginUrl = "https://shopswift-19of.onrender.com/shopswift/login";
+const signupUrl = "https://shopswift-19of.onrender.com/shopswift/signup";
 const username = "shopswift";
 const password = "shopswift";
 

@@ -1,11 +1,11 @@
 const sellProductUrl =
-  "https://shopswift-19of.onrender.com//shopswift/sell/product";
+  "https://shopswift-19of.onrender.com/shopswift/sell/product";
 const getSellProductsUrl =
-  "https://shopswift-19of.onrender.com//shopswift/sell/getProducts/";
+  "https://shopswift-19of.onrender.com/shopswift/sell/getProducts/";
 const sellEditProductUrl =
-  "https://shopswift-19of.onrender.com//shopswift/sell/editProduct";
+  "https://shopswift-19of.onrender.com/shopswift/sell/editProduct";
 const sellDeleteProductUrl =
-  "https://shopswift-19of.onrender.com//shopswift/sell/deleteProduct/";
+  "https://shopswift-19of.onrender.com/shopswift/sell/deleteProduct/";
 const username = "shopswift";
 const password = "shopswift";
 

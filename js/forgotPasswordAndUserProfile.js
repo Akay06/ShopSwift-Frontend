@@ -1,8 +1,8 @@
-const profileUrl = "https://shopswift-19of.onrender.com//shopswift/profile/";
+const profileUrl = "https://shopswift-19of.onrender.com/shopswift/profile/";
 const editProfileUrl =
-  "https://shopswift-19of.onrender.com//shopswift/profile/edit/";
+  "https://shopswift-19of.onrender.com/shopswift/profile/edit/";
 const cartCountUrl =
-  "https://shopswift-19of.onrender.com//shopswift/getCartCount/";
+  "https://shopswift-19of.onrender.com/shopswift/getCartCount/";
 const username = "shopswift";
 const password = "shopswift";
 

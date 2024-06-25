@@ -55,9 +55,9 @@ let containerAccessories = document.getElementById("containerAccessories");
 
 // BACKEND CALLING
 
-const url = "https://shopswift-19of.onrender.com//shopswift/product";
+const url = "https://shopswift-19of.onrender.com/shopswift/product";
 const cartCountUrl =
-  "https://shopswift-19of.onrender.com//shopswift/getCartCount/";
+  "https://shopswift-19of.onrender.com/shopswift/getCartCount/";
 const username = "shopswift";
 const password = "shopswift";
 
