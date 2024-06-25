@@ -56,7 +56,8 @@ async function searchFunction() {
       li.textContent = item[1];
       li.addEventListener("click", function () {
         window.location.href =
-          "http://localhost:8000/contentDetails.html?" + item[0];
+          "https://shopswift-19of.onrender.com/shopswift/contentDetails.html?" +
+          item[0];
       });
       ul.appendChild(li);
     });
