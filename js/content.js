@@ -4,6 +4,11 @@ let contentTitle;
 
 console.log(document.cookie);
 
+if (localStorage.getItem("isLoggedIn") === null)
+  localStorage.setItem("isLoggedIn", false);
+if (localStorage.getItem("account_name") === null)
+  localStorage.setItem("account_name", "");
+
 function dynamicClothingSection(ob) {
   let boxDiv = document.createElement("div");
   boxDiv.id = "box";

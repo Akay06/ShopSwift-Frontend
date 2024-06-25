@@ -10,6 +10,11 @@ headers.append("Authorization", `Basic ${encodedAuthString}`);
 headers.append("Content-Type", "application/json");
 //headers.append('Access-Control-Allow-Origin', '*');
 
+if (localStorage.getItem("isLoggedIn") === null)
+  localStorage.setItem("isLoggedIn", false);
+if (localStorage.getItem("account_name") === null)
+  localStorage.setItem("account_name", "");
+
 $(window).on("hashchange", function () {
   if (location.hash.slice(1) == "signup") {
     $(".page").addClass("extend");

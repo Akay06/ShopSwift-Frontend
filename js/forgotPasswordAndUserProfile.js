@@ -12,6 +12,11 @@ const encodedAuthString = btoa(authString);
 headers.append("Authorization", `Basic ${encodedAuthString}`);
 headers.append("Content-Type", "application/json");
 
+if (localStorage.getItem("isLoggedIn") === null)
+  localStorage.setItem("isLoggedIn", false);
+if (localStorage.getItem("account_name") === null)
+  localStorage.setItem("account_name", "");
+
 document.getElementById("search").style.visibility = "hidden";
 
 document.addEventListener("DOMContentLoaded", async function () {
