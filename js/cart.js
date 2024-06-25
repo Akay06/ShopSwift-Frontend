@@ -193,10 +193,10 @@ async function dynamicCartSection(ob, itemCounter) {
   anchorElement.appendChild(outerDiv);
 
   anchorElement.addEventListener("click", function () {
-    document.querySelector(".bg-modal").style.display = "flex";
+    document.querySelector(".bg-modal-cart").style.display = "flex";
 
     document.querySelector(".close").addEventListener("click", function () {
-      document.querySelector(".bg-modal").style.display = "none";
+      document.querySelector(".bg-modal-cart").style.display = "none";
     });
 
     $(".button-remove").click(function () {
@@ -310,6 +310,6 @@ load();
 
 function removeSuccess() {
   $(".button-remove").removeClass("success");
-  document.querySelector(".bg-modal").style.display = "none";
+  document.querySelector(".bg-modal-cart").style.display = "none";
   location.reload();
 }

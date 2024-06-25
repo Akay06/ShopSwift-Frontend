@@ -155,7 +155,7 @@ button a:focus {
   transform: translateX(20px) translateY(20px) rotate(-45deg);
 }
 
-.bg-modal {
+.bg-modal-cart {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
@@ -167,7 +167,7 @@ button a:focus {
   z-index: 1000;
 }
 
-.modal-contents {
+.modal-contents-cart {
   height: 150px;
   width: 850px;
   background-color: white;
@@ -178,7 +178,7 @@ button a:focus {
   border-radius: 4px;
 }
 
-.modal-text {
+.modal-text-cart {
   padding: 15px;
 }
 
