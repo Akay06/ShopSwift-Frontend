@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SELL PRODUCT | SHOPSWIFT</title>
+    <link rel="stylesheet" href="css/sell.css" />
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16" />
+
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <script src="js/header.js"></script>
+    <script src="js/dropdown.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="1"></div>
+    <script>
+      load("header.html");
+      function load(url) {
+        req = new XMLHttpRequest();
+        req.open("GET", url, false);
+        req.send(null);
+        document.getElementById(1).innerHTML = req.responseText;
+      }
+    </script>
+    <div class="container">
+      <div class="left-pane">
+        <h2>
+          Products
+          <button type="button" id="addProduct">Add Product</button>
+        </h2>
+        <ul id="product-list">
+          <!-- Product list will be populated dynamically -->
+        </ul>
+      </div>
+      <div class="center-pane">
+        <h2>Product Details</h2>
+        <div id="product-details">
+          <!-- Product details will be displayed here -->
+          <p>Select a product to view details.</p>
+        </div>
+        <form id="edit-form" style="display: none">
+          <label for="productName">Product Name:</label>
+          <input
+            type="text"
+            id="productName"
+            name="productName"
+            required
+          /><br /><br />
+          <label for="pickupAddress">Address for Pickup:</label>
+          <input
+            type="text"
+            id="pickupAddress"
+            name="pickupAddress"
+            required
+          /><br /><br />
+          <label for="productPrice">Product Price:</label>
+          <input
+            type="number"
+            id="productPrice"
+            name="productPrice"
+            required
+          /><br /><br />
+          <label for="productDescription">Product Description:</label><br />
+          <textarea
+            id="productDescription"
+            name="productDescription"
+            rows="4"
+            required
+          ></textarea
+          ><br /><br />
+          <label for="ownerContact">Owner Contact Number:</label>
+          <input
+            type="number"
+            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            id="ownerContact"
+            maxlength="10"
+            name="ownerContact"
+          /><br /><br />
+          <button type="button" id="saveChanges">Save Changes</button>
+          <button type="button" id="deleteProduct">Delete Product</button>
+          <button type="button" id="uploadProduct">Upload Product</button>
+          <button type="button" id="cancel">Cancel</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/sell.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>LOGIN | SHOPSWIFT</title>
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+</head>
+
+<body>
+  <div class="box">
+    <img src="img/logo.png" />
+    <div class="page">
+      <div class="header">
+        <a id="login" class="active" href="#login">login</a>
+        <a id="signup" href="#signup">signup</a>
+      </div>
+      <div id="errorMsg"></div>
+      <div class="content">
+        <form
+          class="login"
+          name="loginForm"
+          onsubmit="return validateLoginForm()"
+          method="POST"
+        >
+          <input type="text" name="name" id="logName" placeholder="Username" />
+          <input
+            type="password"
+            name="password"
+            id="logPassword"
+            placeholder="Password"
+          />
+          <br /><br />
+          <input type="submit" class="loginButton" value="Login" />
+          <a href="forgotPassword.html">Forgot Password?</a>
+        </form>
+        <form class="signup" name="signupForm" method="POST">
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="signEmail"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              name="mobile"
+              id="signMobile"
+              placeholder="Mobile number"
+            />
+            <input
+              type="text"
+              name="name"
+              id="signName"
+              placeholder="Username"
+            />
+            <input
+              type="password"
+              name="password"
+              id="signPassword"
+              placeholder="Password"
+            /><br />
+          </div>
+          <div style="margin-top: 300px">
+            <div class="button_anime">
+              <div class="text_anime">Submit</div>
+            </div>
+            <div class="progress-bar_anime"></div>
+            <svg
+              x="0px"
+              y="0px"
+              viewBox="0 0 25 30"
+              style="enable-background: new 0 0 25 30"
+            >
+              <path
+                class="check_anime"
+                class="st0"
+                d="M2,19.2C5.9,23.6,9.4,28,9.4,28L23,2"
+              />
+            </svg>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/login.js"></script>
+</body>

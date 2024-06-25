@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HEADER | SHOPSWIFT</title>
+    <!-- favicon -->
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16" />
+    <!-- EXTERNAL LINKS -->
+    <link rel="stylesheet" href="css/header.css" />
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section>
+        <!-- MAIN CONTAINER -->
+        <div id="container">
+          <!-- SHOP NAME -->
+          <div id="shopName">
+            <a href="index.html"> <b>SHOP</b>SWIFT </a>
+          </div>
+          <!-- COLLECTIONS ON WEBSITE -->
+          <div id="collection">
+            <!--<div id="clothing"><a href="clothing.html"> CLOTHING </a></div> -->
+            <!--<div id="accessories"><a href="accessories.html"> ACCESSORIES </a></div> -->
+          </div>
+          <!-- SEARCH SECTION -->
+          <div id="search">
+            <i class="fas fa-search search"></i>
+            <input
+              type="text"
+              id="search-input"
+              name="searchBox"
+              placeholder="What do you want to buy?"
+              onkeyup="searchFunction()"
+              onclick="searchFunction()"
+            />
+            <div id="searchResults" class="search-results"></div>
+          </div>
+
+          <!-- USER SECTION (CART AND USER ICON) -->
+          <div id="logged-in-view" style="display: none">
+            <a href="cart.html" id="cart">
+              <i class="fas fa-shopping-cart addedToCart"
+                ><div id="badge">0</div></i
+              ></a
+            >
+            <div class="dropdown-container">
+              <details class="dropdown right">
+                <summary class="avatar">
+                  <img
+                    src="https://gravatar.com/avatar/00000000000000000000000000000000?d=mp"
+                  />
+                </summary>
+                <ul>
+                  <!-- Optional: user details area w/ gray bg -->
+                  <li>
+                    <p>
+                      <span id="account_name" class="block bold"></span>
+                    </p>
+                  </li>
+                  <!-- Menu links -->
+                  <li>
+                    <a href="userProfile.html">
+                      <span class="material-symbols-outlined"
+                        >account_circle</span
+                      >
+                      Account
+                    </a>
+                  </li>
+                  <li>
+                    <a href="orders.html">
+                      <span class="material-symbols-outlined">orders</span>
+                      Orders
+                    </a>
+                  </li>
+                  <!-- Optional divider -->
+                  <li class="divider"></li>
+                  <li>
+                    <a href="index.html" onclick="logout()">
+                      <span class="material-symbols-outlined">logout</span>
+                      Logout
+                    </a>
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </div>
+          <div id="logged-out-view" style="display: none">
+            <a
+              href="login.html"
+              class="btn-flip"
+              data-back="Let's go!!"
+              data-front="Login"
+            ></a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <script src="js/header.js"></script>
+  </body>
+</html>
