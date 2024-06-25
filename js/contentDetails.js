@@ -1,10 +1,11 @@
 console.clear();
 
-const productUrl = "http://localhost:9000/shopswift/product/";
-const cartCountUrl = "http://localhost:9000/shopswift/getCartCount/";
+const productUrl = "https://shopswift-19of.onrender.com//shopswift/product/";
+const cartCountUrl =
+  "https://shopswift-19of.onrender.com//shopswift/getCartCount/";
 const cartProductCountUrl =
-  "http://localhost:9000/shopswift/getCartProductCount/";
-const addToCartUrl = "http://localhost:9000/shopswift/addToCart";
+  "https://shopswift-19of.onrender.com//shopswift/getCartProductCount/";
+const addToCartUrl = "https://shopswift-19of.onrender.com//shopswift/addToCart";
 const username = "shopswift";
 const password = "shopswift";
 

@@ -23,7 +23,7 @@ function logout() {
 async function searchFunction() {
   let items;
   let response = await fetch(
-    "http://localhost:9000/shopswift/getProductNamesAndId",
+    "https://shopswift-19of.onrender.com//shopswift/getProductNamesAndId",
     {
       method: "GET",
       headers: headers,

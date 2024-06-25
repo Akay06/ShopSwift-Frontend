@@ -1,8 +1,11 @@
-const sellProductUrl = "http://localhost:9000/shopswift/sell/product";
-const getSellProductsUrl = "http://localhost:9000/shopswift/sell/getProducts/";
-const sellEditProductUrl = "http://localhost:9000/shopswift/sell/editProduct";
+const sellProductUrl =
+  "https://shopswift-19of.onrender.com//shopswift/sell/product";
+const getSellProductsUrl =
+  "https://shopswift-19of.onrender.com//shopswift/sell/getProducts/";
+const sellEditProductUrl =
+  "https://shopswift-19of.onrender.com//shopswift/sell/editProduct";
 const sellDeleteProductUrl =
-  "http://localhost:9000/shopswift/sell/deleteProduct/";
+  "https://shopswift-19of.onrender.com//shopswift/sell/deleteProduct/";
 const username = "shopswift";
 const password = "shopswift";
 

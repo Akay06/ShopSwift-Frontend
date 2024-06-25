@@ -1,6 +1,8 @@
-const profileUrl = "http://localhost:9000/shopswift/profile/";
-const editProfileUrl = "http://localhost:9000/shopswift/profile/edit/";
-const cartCountUrl = "http://localhost:9000/shopswift/getCartCount/";
+const profileUrl = "https://shopswift-19of.onrender.com//shopswift/profile/";
+const editProfileUrl =
+  "https://shopswift-19of.onrender.com//shopswift/profile/edit/";
+const cartCountUrl =
+  "https://shopswift-19of.onrender.com//shopswift/getCartCount/";
 const username = "shopswift";
 const password = "shopswift";
 

@@ -1,7 +1,9 @@
-const cartCountUrl = "http://localhost:9000/shopswift/getCartCount/";
-const getCartUrl = "http://localhost:9000/shopswift/getCart/";
-const profileUrl = "http://localhost:9000/shopswift/profile/";
-const placeOrderUrl = "http://localhost:9000/shopswift/placeOrder/";
+const cartCountUrl =
+  "https://shopswift-19of.onrender.com//shopswift/getCartCount/";
+const getCartUrl = "https://shopswift-19of.onrender.com//shopswift/getCart/";
+const profileUrl = "https://shopswift-19of.onrender.com//shopswift/profile/";
+const placeOrderUrl =
+  "https://shopswift-19of.onrender.com//shopswift/placeOrder/";
 
 const username = "shopswift";
 const password = "shopswift";

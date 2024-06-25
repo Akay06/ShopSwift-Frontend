@@ -1,4 +1,5 @@
-const getOrdersUrl = "http://localhost:9000/shopswift/getOrders/";
+const getOrdersUrl =
+  "https://shopswift-19of.onrender.com//shopswift/getOrders/";
 
 const username = "shopswift";
 const password = "shopswift";
