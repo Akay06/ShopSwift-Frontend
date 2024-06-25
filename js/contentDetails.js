@@ -30,7 +30,7 @@ console.log(id);
 }*/
 
 async function dynamicContentDetails(ob) {
-  let maxCount = 0;
+  let maxCount = ob.stock_count;
 
   if (localStorage.getItem("isLoggedIn") === "true") {
     let response3 = await fetch(
