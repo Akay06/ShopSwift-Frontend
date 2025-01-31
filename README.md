@@ -65,7 +65,7 @@ Open or serve the index.html file.
 ## 📜 License
 This project is open-source and available under the MIT License.
 
-📧 Have Questions? Feel free to open an issue or contact me! 🚀
+📧 Have Questions? Feel free to open an [issue](https://github.com/Akay06/ShopSwift-Frontend/issues) or contact me! 🚀
 
 ---
 
