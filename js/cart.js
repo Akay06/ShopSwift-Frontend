@@ -1,13 +1,13 @@
 console.clear();
 
 const cartCountUrl =
-  "https://shopswift-19of.onrender.com/shopswift/getCartCount/";
-const getCartUrl = "https://shopswift-19of.onrender.com/shopswift/getCart/";
+  "https://shopswift-dtrd.onrender.com/shopswift/getCartCount/";
+const getCartUrl = "https://shopswift-dtrd.onrender.com/shopswift/getCart/";
 const removeFromCartUrl =
-  "https://shopswift-19of.onrender.com/shopswift/removeFromCart/";
+  "https://shopswift-dtrd.onrender.com/shopswift/removeFromCart/";
 const decreaseFromCartUrl =
-  "https://shopswift-19of.onrender.com/shopswift/decreaseFromCart/";
-const addToCartUrl = "https://shopswift-19of.onrender.com/shopswift/addToCart";
+  "https://shopswift-dtrd.onrender.com/shopswift/decreaseFromCart/";
+const addToCartUrl = "https://shopswift-dtrd.onrender.com/shopswift/addToCart";
 const username = "shopswift";
 const password = "shopswift";
 
